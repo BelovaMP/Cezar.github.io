@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Шифр Цезаря</title>
+	
+	<script src="script.js"></script>
+	
+</head>
+<body onload="scrambler();">
+	<h4>Шифр Цезаря </h4> <br>
+	Ключ: <div id="key" ></div>
+	Шифр: <div id="cipher" ></div>
+	<div class="labels">Дешифровка: 
+        <input type="text"  id="input_decryption" name="decrypt" placeholder="Введите слово..."></div>
+	<div id="res"></div>
+	<div id="div_button_accept_decryption">
+	<button name="decrypt_accept" class="button_accept_decryption" onclick="correctDecipherment();">Проверить</button></div>
+	
+      
+</body>
+</html>
